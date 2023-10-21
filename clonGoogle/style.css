@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+body{
+    background-color: #202124;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+    height: 60px;
+    padding: 0 12px;
+}
+
+header .options {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header .options a {
+    font-family: Verdana;
+    text-decoration: none;
+    color: white;
+}
+
+header .options a img{
+height: 32px;
+width: 32px;
+}
+
+main{
+    height: calc(100% - 60px - 90px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+main .container figure {
+height: 92px;
+}
+
+main .container figure img {
+    height: 100%;
+}
+
+main .container p {
+color: white;
+font-size: small;
+}
+
+main .container .Searcher-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+main .container .Searcher-buttons button {
+border: none;
+border-radius: 4px;
+background-color: #303134;
+padding: 12px;
+color: white;
+}
+
+main .container .Searcher {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 12px;
+    height: 40px;
+    width: 420px;
+    border: 1px solid gray;
+    border-radius: 24px;
+}
+
+main .container .Searcher input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.search-logo {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(assets/search-logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.micro-logo {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(assets/micro-logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.camera-logo {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(assets/camera-logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main .container .Searcher button {
+    background-color: transparent;
+    border: none;
+}
+
+footer {
+    height: 90px;
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer section.more-info {
+padding: 0 30px;
+border-top: white solid 1px;
+display: flex;
+justify-content: space-between;
+}
+
+footer section {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    
+    color: white;
+}
+
+footer section.more-info div a {
+color: white;
+text-decoration: none;
+}
+
+footer section.more-info div {
+    display: flex;
+    gap: 18px;
+}
